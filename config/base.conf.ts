@@ -11,9 +11,6 @@ export const baseConfig: Options.Testrunner = {
 
     specs: ['./tests/features/*.feature'],
 
-    // retries per spec file
-    specFileRetries: 1,
-
     // maximium instances to run
     maxInstances: 1,
     maxInstancesPerCapability: 1,
