@@ -1,0 +1,458 @@
+{
+  "app": 1,
+  "customMetadata": false,
+  "customData": {
+    "title": "WDIO tests Report",
+    "data": [
+      {
+        "label": "Project",
+        "value": "WDIO Demo Project"
+      },
+      {
+        "label": "Date",
+        "value": "30/10/2024"
+      }
+    ]
+  },
+  "style": "style.css",
+  "useCDN": false,
+  "hideMetadata": false,
+  "displayReportTime": false,
+  "displayDuration": false,
+  "browser": 0,
+  "name": "",
+  "version": "version",
+  "time": "2024-10-30T14:25:27.811Z",
+  "features": [
+    {
+      "metadata": {
+        "app": {
+          "name": "\\Downloads\\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
+          "version": "No metadata.app.version available"
+        },
+        "device": "Device name not known",
+        "platform": {
+          "name": "android",
+          "version": "Version not known"
+        }
+      },
+      "keyword": "Feature",
+      "type": "feature",
+      "description": "",
+      "line": 1,
+      "name": "The Swaglabs Android App Login Feature",
+      "uri": "D:\\Interview-Assignment\\wdio-mobile-automation\\tests\\features\\login.feature",
+      "tags": [],
+      "elements": [
+        {
+          "keyword": "Scenario",
+          "type": "scenario",
+          "description": "",
+          "name": "As a user, I try to login with different login inputs",
+          "tags": [],
+          "id": "the-swaglabs-android-app-login-featureas-a-user,-i-try-to-login-with-different-login-inputs",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Before",
+              "name": "",
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.001"
+            },
+            {
+              "arguments": [],
+              "keyword": "Given",
+              "name": "I am on the login page",
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.001"
+            },
+            {
+              "arguments": [],
+              "keyword": "When",
+              "name": "I login with locked_out_user",
+              "result": {
+                "status": "passed",
+                "duration": 4135000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:04.135"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then",
+              "name": "I should see the correct error message for locked_out_user",
+              "result": {
+                "status": "passed",
+                "duration": 907000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.907"
+            },
+            {
+              "arguments": [],
+              "keyword": "After",
+              "name": "",
+              "result": {
+                "status": "passed",
+                "duration": 4464000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:04.464"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 9508000000,
+          "time": "00:00:09.508"
+        },
+        {
+          "keyword": "Scenario",
+          "type": "scenario",
+          "description": "",
+          "name": "As a user, I try to login with different login inputs",
+          "tags": [],
+          "id": "the-swaglabs-android-app-login-featureas-a-user,-i-try-to-login-with-different-login-inputs",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Before",
+              "name": "",
+              "result": {
+                "status": "passed",
+                "duration": 0
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given",
+              "name": "I am on the login page",
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.001"
+            },
+            {
+              "arguments": [],
+              "keyword": "When",
+              "name": "I login with no_username",
+              "result": {
+                "status": "passed",
+                "duration": 4317000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:04.317"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then",
+              "name": "I should see the correct error message for no_username",
+              "result": {
+                "status": "passed",
+                "duration": 906000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.906"
+            },
+            {
+              "arguments": [],
+              "keyword": "After",
+              "name": "",
+              "result": {
+                "status": "passed",
+                "duration": 4220000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:04.220"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 9444000000,
+          "time": "00:00:09.444"
+        },
+        {
+          "keyword": "Scenario",
+          "type": "scenario",
+          "description": "",
+          "name": "As a user, I try to login with different login inputs",
+          "tags": [],
+          "id": "the-swaglabs-android-app-login-featureas-a-user,-i-try-to-login-with-different-login-inputs",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Before",
+              "name": "",
+              "result": {
+                "status": "passed",
+                "duration": 0
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given",
+              "name": "I am on the login page",
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.001"
+            },
+            {
+              "arguments": [],
+              "keyword": "When",
+              "name": "I login with no_password",
+              "result": {
+                "status": "passed",
+                "duration": 4162000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:04.162"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then",
+              "name": "I should see the correct error message for no_password",
+              "result": {
+                "status": "passed",
+                "duration": 891000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.891"
+            },
+            {
+              "arguments": [],
+              "keyword": "After",
+              "name": "",
+              "result": {
+                "status": "passed",
+                "duration": 4293000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:04.293"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 9347000000,
+          "time": "00:00:09.347"
+        },
+        {
+          "keyword": "Scenario",
+          "type": "scenario",
+          "description": "",
+          "name": "As a user, I try to login with different login inputs",
+          "tags": [],
+          "id": "the-swaglabs-android-app-login-featureas-a-user,-i-try-to-login-with-different-login-inputs",
+          "steps": [
+            {
+              "arguments": [],
+              "keyword": "Before",
+              "name": "",
+              "result": {
+                "status": "passed",
+                "duration": 0
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              }
+            },
+            {
+              "arguments": [],
+              "keyword": "Given",
+              "name": "I am on the login page",
+              "result": {
+                "status": "passed",
+                "duration": 1000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.001"
+            },
+            {
+              "arguments": [],
+              "keyword": "When",
+              "name": "I login with no_details",
+              "result": {
+                "status": "passed",
+                "duration": 4174000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:04.174"
+            },
+            {
+              "arguments": [],
+              "keyword": "Then",
+              "name": "I should see the correct error message for no_details",
+              "result": {
+                "status": "passed",
+                "duration": 685000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:00.685"
+            },
+            {
+              "arguments": [],
+              "keyword": "After",
+              "name": "",
+              "result": {
+                "status": "passed",
+                "duration": 4320000000
+              },
+              "line": null,
+              "match": {
+                "location": "can not be determined with webdriver.io"
+              },
+              "time": "00:00:04.320"
+            }
+          ],
+          "passed": 5,
+          "failed": 0,
+          "notDefined": 0,
+          "skipped": 0,
+          "pending": 0,
+          "ambiguous": 0,
+          "duration": 9180000000,
+          "time": "00:00:09.180"
+        }
+      ],
+      "id": "1f9f064e-3d2c-4027-b4c6-e9a3428da0d4-the-swaglabs-android-app-login-feature",
+      "scenarios": {
+        "passed": 4,
+        "failed": 0,
+        "notDefined": 0,
+        "skipped": 0,
+        "pending": 0,
+        "ambiguous": 0,
+        "passedPercentage": "100.00",
+        "failedPercentage": "0.00",
+        "notDefinedPercentage": "0.00",
+        "skippedPercentage": "0.00",
+        "pendingPercentage": "0.00",
+        "ambiguousPercentage": "0.00",
+        "total": 4
+      },
+      "duration": 37479000000,
+      "time": "00:00:37.479",
+      "isFailed": false,
+      "isAmbiguous": false,
+      "isSkipped": false,
+      "isNotdefined": false,
+      "isPending": false,
+      "app": 0,
+      "browser": 0,
+      "passed": null,
+      "totalTime": null
+    }
+  ],
+  "featureCount": {
+    "ambiguous": 0,
+    "failed": 0,
+    "passed": 1,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "total": 1,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notDefinedPercentage": "0.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00",
+    "passedPercentage": "100.00"
+  },
+  "reportName": "Acceptance Tests Report",
+  "scenarios": {
+    "failed": 0,
+    "ambiguous": 0,
+    "notDefined": 0,
+    "pending": 0,
+    "skipped": 0,
+    "passed": 4,
+    "total": 4,
+    "ambiguousPercentage": "0.00",
+    "failedPercentage": "0.00",
+    "notDefinedPercentage": "0.00",
+    "passedPercentage": "100.00",
+    "pendingPercentage": "0.00",
+    "skippedPercentage": "0.00"
+  },
+  "totalTime": 0
+}

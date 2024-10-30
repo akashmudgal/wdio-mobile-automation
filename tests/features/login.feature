@@ -1,4 +1,4 @@
-Feature: The Internet Guinea Pig Website
+Feature: The Swaglabs Android App Login Feature
 
   Scenario Outline: As a user, I try to login with different login inputs
 
