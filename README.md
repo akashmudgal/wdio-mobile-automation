@@ -1,6 +1,6 @@
-# Demo project for Xoriant assignment
+# Test Automation Framework for Mobile Apps, based on webdriverIO
 
-This is a demo project created with webdriverIO, Typescript, Cucumber and cucumber for the below application:
+This is a demo project created with webdriverIO, Typescript, Cucumber for the below application:
 
 https://github.com/saucelabs/sample-app-mobile/releases
 
